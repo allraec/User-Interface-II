@@ -1,16 +1,25 @@
 /* Add CSS styling here */
 body{
-    margin: 0px 100px 0px 100px;
+    background-color: black;
+    color: white;
+    margin: 0px 250px 0px 250px;
 }
+
 header{
-    border: 10px solid #ff0080;
+    text-align: center;
+    border: 15px solid mediumvioletred;
     padding: 1%;
-    background-color: pink;
+    background-color: lightpink;
+    border-radius: 10%;
+}
+
+h1{
+    color: mediumvioletred
 }
 
 button {
-    background-color: #4CAF50;
-    border: 2px solid #99004d;
+    background-color: palevioletred;
+    border: 2px solid mediumvioletred;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -19,23 +28,78 @@ button {
     font-size: 16px;
   }
 
-  button:hover {
+button:hover {
     background-color: white;
-    border: 2px solid #99004d;
-    color: #8f246b;
+    border: 2px solid mediumvioletredd;
+    color: mediumvioletred;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
 
-  .container {
+.mini-bio{
+    margin: 50px 0 50px 0;
+    background-color: lightpink;
+    border: 10px solid mediumvioletred;
+    border-radius: 10%;
+    color: grey;
+    font-size: 20px;
+ }
+
+h2{
+    color: mediumvioletred;
+}
+
+.item {
+      margin: 20px;
+}
+
+.container {
     display: flex;
 }
-img {
-    align-self: baseline;
+
+.gallery-container{
+    background-color: lightpink;
+    border: 10px solid mediumvioletred;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border-radius: 10%;
 }
-p { 
-    margin: 0 0 0 10px; 
+
+.gallery-items img{
+    margin: 15px;
+    background-color: lightpink;
+    border: 2px solid mediumvioletred;
+    border-radius: 10%;
 }
+
+footer{
+    text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: pink;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-snapchat-ghost {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  #ign{
+    text-decoration: line-through;
+  }
