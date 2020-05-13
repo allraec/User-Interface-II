@@ -29,3 +29,13 @@ button {
     display: inline-block;
     font-size: 16px;
   }
+
+  .container {
+    display: flex;
+}
+img {
+    align-self: baseline;
+}
+p { 
+    margin: 0 0 0 10px; 
+}
