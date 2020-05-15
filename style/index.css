@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    margin: 0 0 0 0;
+    margin: 10% 0 0 0;
     text-align: center;
     border: 1rem solid mediumvioletred;
     padding: 1rem;
@@ -49,6 +49,7 @@ h2{
 }
 
 .mini-bio{
+    margin: 10% 0 0 0;
     background-color: lightpink;
     border: 1rem solid mediumvioletred;
     color: grey;
@@ -75,6 +76,7 @@ h2{
  }
 
 .gallery-container{
+    margin: 10% 0 0 0;
     background-color: lightpink;
     border: 1rem solid mediumvioletred;
     display: flex;
@@ -82,6 +84,9 @@ h2{
     justify-content: space-evenly;
 }
 
+.gallery-items{
+    margin: 1%;
+}
 .gallery-items img{
     background-color: lightpink;
     border: .2rem solid mediumvioletred;
