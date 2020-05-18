@@ -5,13 +5,14 @@ html{
 body{
     background-color: black;
     color: white;
-    margin: 0px 20% 0px 20%;
+    margin: 0px 15% 0px 15%;
 }
 
 header{
-    margin: 10% 0 0 0;
+    margin: 5%;
     text-align: center;
     border: 1rem solid mediumvioletred;
+    border-radius: 5%;
     padding: 1rem;
     background-color: lightpink;
     box-sizing: border-box;
@@ -49,34 +50,35 @@ h2{
 }
 
 .mini-bio{
-    margin: 10% 0 0 0;
+    margin: 5%;
+    padding: 1%;
+    border-radius: 5%;
     background-color: lightpink;
     border: 1rem solid mediumvioletred;
+    box-sizing: border-box;
     color: grey;
     font-size: 1.6rem;
- }
-
- .container {
     display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
- .container .item {
-    padding: 1%;
+.mini-bio .item {
     box-sizing: border-box;
-    width: 50%;
-    height: auto;
- }
+    width: 45%;
+}
 
- .container .item img{
-    margin: 10%;
-    width: 90%;
-    height: auto;  
- }
+.mini-bio .item img{
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 1%;
+}
 
 .gallery-container{
-    margin: 10% 0 0 0;
+    border-radius: 5%;
+    margin: 5%;
     background-color: lightpink;
     border: 1rem solid mediumvioletred;
     display: flex;
@@ -87,6 +89,7 @@ h2{
 .gallery-items{
     margin: 1%;
 }
+
 .gallery-items img{
     background-color: lightpink;
     border: .2rem solid mediumvioletred;
@@ -133,14 +136,19 @@ footer{
         display: none;
     }
 
-    .container {
+    .mini-bio {
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column wrap;
         align-items: center;
     }
 
-    .container.item{
-        width: 100%;
+    .mini-bio .item{
+        margin: 1%;
+        max-width: 100%;
+    }
+
+    .mini-bio .item a{
+        display: none;
     }
 
     header nav{
